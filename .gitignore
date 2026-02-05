@@ -7,3 +7,11 @@ __pycache__/
 .DS_Store
 .vscode/
 .idea/
+
+# SSH keys - НЕ загружать в Git!
+ssh-key-*
+*.pem
+*.key
+
+# Прочее
+powershell.txt
