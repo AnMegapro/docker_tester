@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  time-tester:
+    image: ghcr.io/${GITHUB_REPOSITORY:-anmegapro/docker_tester}:latest
+    container_name: time-tester
+    restart: unless-stopped
+
+    # Логирование
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

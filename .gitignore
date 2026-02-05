@@ -13,5 +13,8 @@ ssh-key-*
 *.pem
 *.key
 
+# Environment файлы с секретами
+.env
+
 # Прочее
 powershell.txt
